@@ -4,7 +4,7 @@ import requests
 class BaidutiebaSpider(object):
     def __init__(self, tieba_name):
         self.tieba_name = tieba_name
-        self.url_temp = "https://tieba.baidu.com/mo/q/m?word=" + tieba_name + "%E7%A7%91%E5%B9%BB%E7%89%87&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={}&"
+        self.url_temp = "https://tieba.baidu.com/mo/q/m?word=" + tieba_name + "&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={}&"
         self.headers = {
             "Use-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"}
 
